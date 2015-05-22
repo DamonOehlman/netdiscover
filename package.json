@@ -1,0 +1,19 @@
+{
+  "name": "netdiscover",
+  "version": "1.0.0",
+  "description": "Discover information about your local network and do scans on the network to discover open HTTP (and similar) services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamonOehlman/netdiscover.git"
+  },
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamonOehlman/netdiscover/issues"
+  },
+  "homepage": "https://github.com/DamonOehlman/netdiscover#readme"
+}
