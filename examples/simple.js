@@ -1,5 +1,9 @@
 var netdiscover = require('../');
 
 netdiscover(function(err, myip) {
-  console.log(err, myip);
+  if (err) {
+    return console.error('could not discover ip: ', err);
+  }
+
+  console.log('my ip: ' + myip);
 })
