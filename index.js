@@ -12,7 +12,7 @@ function split(candidate) {
   return candidate.split(' ');
 }
 
-function getMyLocalIp(callback) {
+module.exports = function(callback) {
   var pc = new RTCPeerConnection({ iceServers: [] });
   var gathered = [];
 
@@ -33,14 +33,4 @@ function getMyLocalIp(callback) {
 
   pc.createDataChannel('test');
   pc.createOffer(handleSuccess, callback);
-}
-
-module.exports = function(callback) {
-  getMyLocalIp(function(err, ip) {
-    if (err) {
-      return callback(err);
-    }
-
-    console.log('ip is: ' + ip);
-  });
 };
