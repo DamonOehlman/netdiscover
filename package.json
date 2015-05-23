@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/DamonOehlman/netdiscover/issues"
   },
-  "homepage": "https://github.com/DamonOehlman/netdiscover#readme"
+  "homepage": "https://github.com/DamonOehlman/netdiscover#readme",
+  "dependencies": {
+    "freeice": "^2.1.2",
+    "rtc-core": "^4.0.0"
+  }
 }
